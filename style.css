@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row-gap: 20px;
+}
+
+.images li {
+  list-style: none;
+}
+
+.picture {
+  border-radius: 5%;
+}
